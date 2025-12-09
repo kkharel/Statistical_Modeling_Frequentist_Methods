@@ -35,11 +35,11 @@ The final section covers sophisticated methods for measuring causation when full
 
 ---
 
-## Known Issues and Recommended Enhancements
+## Recommended Enhancements
 
-As of this version, the notebook is highly focused on mean comparison tests. For a truly "complete guide to statistical modeling," the following areas are currently missing and are recommended for future exploration:
+As of this version, the notebook is highly focused on mean comparison tests. For a truly "complete guide to statistical modeling," the following areas are recommended for future exploration:
 
-| Missing Topic | Why it Matters | Next Step for Reader |
+| Topic | Why it Matters | Next Step for Reader |
 | :--- | :--- | :--- |
 | **Regression-Based Hypothesis Testing** | The notebook is missing the use of Linear (OLS) and Logistic (Logit) Regression to test the significance of coefficients **while controlling for multiple variables (confounders)**. | Explore `statsmodels.formula.api` for multivariate $t$-tests on coefficients. |
 | **Multiple Testing Correction** | The notebook does not address the inflation of the **Type I Error** rate that occurs when running many independent tests (common in A/B testing on multiple KPIs). | Study **False Discovery Rate (FDR)** methods like Benjamini-Hochberg (BH). |
